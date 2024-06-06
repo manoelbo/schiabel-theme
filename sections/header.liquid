@@ -1,5 +1,12 @@
 <header class="minimalist color-{{ section.settings.color_scheme }} ">
   <ul>
+    <li class="minimalist-logo">
+      <a href="{{ routes.root_url }}">
+        {%- if settings.logo != blank -%}
+          {{ settings.logo | image_url: width: 300 | image_tag: class: '', width: 110, alt: shop.name, preload: true }}
+        {%- endif -%}
+      </a>
+    </li>
     {%- for link in section.settings.menu.links -%}
       <li>
         <a

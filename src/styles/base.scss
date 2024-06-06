@@ -38,6 +38,21 @@
 }
 
 header.minimalist {
+  .minimalist-logo {
+    margin: 0;
+    margin-right: 5px;
+    
+    img {
+      width: 110px;
+      height: auto;
+    }
+  
+    a {
+      display: block;
+      height: 34px;
+    }
+  }
+
   ul {
     list-style: none;
     display: flex;
@@ -46,6 +61,7 @@ header.minimalist {
     text-transform: uppercase;
     margin: 0;
     padding: 10px;
+    align-items: center;
 
     li {
       margin: 10px;
@@ -150,6 +166,8 @@ header.minimalist {
     }
   }
 }
+
+
 
 
 :root {

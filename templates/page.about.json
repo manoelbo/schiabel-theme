@@ -14,7 +14,7 @@
         "text_RfMMHy": {
           "type": "text",
           "settings": {
-            "text": "<p>Schiabel’s specializes in 20th century paintings of merit.<\/p><p><a href=\"https:\/\/www.instagram.com\/?hl=en\" title=\"https:\/\/www.instagram.com\/?hl=en\">Instagram<\/a> | <a href=\"mailto:schiabel@gmail.com\" title=\"mailto:schiabel@gmail.com\">Email<\/a><\/p>"
+            "text": "<h1>Schiabel’s specializes in 20th century paintings of merit. Our focus is authentic pre-war and mid-century paintings with a particular interest in American folk and vernacular artists. We are based in Brooklyn.Please be in touch with any questions or concerns. We are happy to provide a condition report upon request<\/h1><h2><a href=\"mailto:info@schiabels.org\" title=\"mailto:info@schiabels.org\">info@schiabels.org<br\/><\/a><a href=\"https:\/\/www.instagram.com\/schiabels\" title=\"https:\/\/www.instagram.com\/schiabels\">@schiabels<\/a><\/h2><p><\/p>"
           }
         }
       },
@@ -22,8 +22,8 @@
         "text_RfMMHy"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,

@@ -21,6 +21,9 @@
       "block_order": [
         "text_RfMMHy"
       ],
+      "custom_css": [
+        "h1 {font-size: 32px}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",

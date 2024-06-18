@@ -32,7 +32,7 @@
       ],
       "custom_css": [
         "h1 {font-size: 32px;}",
-        "a {}"
+        "a {text-decoration: none;}"
       ],
       "settings": {
         "desktop_content_position": "center",

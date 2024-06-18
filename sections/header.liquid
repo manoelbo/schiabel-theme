@@ -7,16 +7,18 @@
         {%- endif -%}
       </a>
     </li>
-    {%- for link in section.settings.menu.links -%}
-      <li>
-        <a
-          href="{{ link.url }}"
-          class="list-menu__item list-menu__item--link{% if link.current %} list-menu__item--active{% endif %}"
-        >
-          {{ link.title | escape }}
-        </a>
-      </li>
-    {%- endfor -%}
+    <div>
+      {%- for link in section.settings.menu.links -%}
+        <li>
+          <a
+            href="{{ link.url }}"
+            class="list-menu__item list-menu__item--link{% if link.current %} list-menu__item--active{% endif %}"
+          >
+            {{ link.title | escape }}
+          </a>
+        </li>
+      {%- endfor -%}
+    </div>
   </ul>
 </header>
 
